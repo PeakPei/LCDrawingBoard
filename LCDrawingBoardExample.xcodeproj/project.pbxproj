@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BA9900920A296AD00B96A9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9900820A296AD00B96A9C /* AppDelegate.m */; };
+		6BA9901120A296AD00B96A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA9901020A296AD00B96A9C /* Assets.xcassets */; };
+		6BA9901420A296AD00B96A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA9901220A296AD00B96A9C /* LaunchScreen.storyboard */; };
+		6BA9901720A296AD00B96A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9901620A296AD00B96A9C /* main.m */; };
+		6BA9902220A2972300B96A9C /* LCDrawingBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9901F20A2972300B96A9C /* LCDrawingBoard.m */; };
+		6BA9902920A2988900B96A9C /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9902820A2988800B96A9C /* LCViewController.m */; };
+		6BA9902B20A2988D00B96A9C /* LCDrawingBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA9902A20A2988D00B96A9C /* LCDrawingBoard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BA9900420A296AD00B96A9C /* LCDrawingBoardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCDrawingBoardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA9900720A296AD00B96A9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BA9900820A296AD00B96A9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BA9901020A296AD00B96A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BA9901320A296AD00B96A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BA9901520A296AD00B96A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA9901620A296AD00B96A9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BA9901E20A2972300B96A9C /* LCDrawingBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDrawingBoard.h; sourceTree = "<group>"; };
+		6BA9901F20A2972300B96A9C /* LCDrawingBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDrawingBoard.m; sourceTree = "<group>"; };
+		6BA9902720A2988800B96A9C /* LCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
+		6BA9902820A2988800B96A9C /* LCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
+		6BA9902A20A2988D00B96A9C /* LCDrawingBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LCDrawingBoard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BA9900120A296AD00B96A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BA98FFB20A296AD00B96A9C = {
+			isa = PBXGroup;
+			children = (
+				6BA9900620A296AD00B96A9C /* LCDrawingBoardExample */,
+				6BA9900520A296AD00B96A9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BA9900520A296AD00B96A9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9900420A296AD00B96A9C /* LCDrawingBoardExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA9900620A296AD00B96A9C /* LCDrawingBoardExample */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9901D20A2972300B96A9C /* LCDrawingBoard */,
+				6BA9902420A297BB00B96A9C /* Classes */,
+				6BA9901020A296AD00B96A9C /* Assets.xcassets */,
+				6BA9901220A296AD00B96A9C /* LaunchScreen.storyboard */,
+				6BA9901520A296AD00B96A9C /* Info.plist */,
+				6BA9901620A296AD00B96A9C /* main.m */,
+			);
+			path = LCDrawingBoardExample;
+			sourceTree = "<group>";
+		};
+		6BA9901D20A2972300B96A9C /* LCDrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9901E20A2972300B96A9C /* LCDrawingBoard.h */,
+				6BA9901F20A2972300B96A9C /* LCDrawingBoard.m */,
+			);
+			path = LCDrawingBoard;
+			sourceTree = SOURCE_ROOT;
+		};
+		6BA9902420A297BB00B96A9C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9902520A297BB00B96A9C /* Controllers */,
+				6BA9902620A297BB00B96A9C /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6BA9902520A297BB00B96A9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9902720A2988800B96A9C /* LCViewController.h */,
+				6BA9902820A2988800B96A9C /* LCViewController.m */,
+				6BA9902A20A2988D00B96A9C /* LCDrawingBoard.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6BA9902620A297BB00B96A9C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9900720A296AD00B96A9C /* AppDelegate.h */,
+				6BA9900820A296AD00B96A9C /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BA9900320A296AD00B96A9C /* LCDrawingBoardExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA9901A20A296AD00B96A9C /* Build configuration list for PBXNativeTarget "LCDrawingBoardExample" */;
+			buildPhases = (
+				6BA9900020A296AD00B96A9C /* Sources */,
+				6BA9900120A296AD00B96A9C /* Frameworks */,
+				6BA9900220A296AD00B96A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCDrawingBoardExample;
+			productName = LCDrawingBoardExample;
+			productReference = 6BA9900420A296AD00B96A9C /* LCDrawingBoardExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BA98FFC20A296AD00B96A9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					6BA9900320A296AD00B96A9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BA98FFF20A296AD00B96A9C /* Build configuration list for PBXProject "LCDrawingBoardExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BA98FFB20A296AD00B96A9C;
+			productRefGroup = 6BA9900520A296AD00B96A9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BA9900320A296AD00B96A9C /* LCDrawingBoardExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BA9900220A296AD00B96A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA9901420A296AD00B96A9C /* LaunchScreen.storyboard in Resources */,
+				6BA9901120A296AD00B96A9C /* Assets.xcassets in Resources */,
+				6BA9902B20A2988D00B96A9C /* LCDrawingBoard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BA9900020A296AD00B96A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA9901720A296AD00B96A9C /* main.m in Sources */,
+				6BA9902920A2988900B96A9C /* LCViewController.m in Sources */,
+				6BA9902220A2972300B96A9C /* LCDrawingBoard.m in Sources */,
+				6BA9900920A296AD00B96A9C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BA9901220A296AD00B96A9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA9901320A296AD00B96A9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BA9901820A296AD00B96A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BA9901920A296AD00B96A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BA9901B20A296AD00B96A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCDrawingBoardExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.LCDrawingBoardExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6BA9901C20A296AD00B96A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCDrawingBoardExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.LCDrawingBoardExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BA98FFF20A296AD00B96A9C /* Build configuration list for PBXProject "LCDrawingBoardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA9901820A296AD00B96A9C /* Debug */,
+				6BA9901920A296AD00B96A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA9901A20A296AD00B96A9C /* Build configuration list for PBXNativeTarget "LCDrawingBoardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA9901B20A296AD00B96A9C /* Debug */,
+				6BA9901C20A296AD00B96A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BA98FFC20A296AD00B96A9C /* Project object */;
+}
